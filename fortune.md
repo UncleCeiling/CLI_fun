@@ -1,0 +1,5 @@
+# fortune
+
+## Installation
+
+## Fortunes
