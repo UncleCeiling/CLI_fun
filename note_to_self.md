@@ -40,3 +40,15 @@ Running `/usr/games/cowsay` worked, so...
 ```shell
 PATH=$PATH:/usr/games
 ```
+
+### DevContainers
+
+Just add this to the `devcontainer.json`:
+
+```json
+{
+"remoteEnv": {
+        "PATH": "${containerEnv:PATH}:/usr/games"
+    }
+}
+```

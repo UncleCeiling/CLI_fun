@@ -1,0 +1,7 @@
+{
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "postCreateCommand": "bash .devcontainer/installs.sh",
+    "remoteEnv": {
+        "PATH": "${containerEnv:PATH}:/usr/games"
+    }
+}
